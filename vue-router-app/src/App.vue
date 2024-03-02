@@ -5,7 +5,7 @@
   
   <RouterLink to="/">Home</RouterLink> |
   <RouterLink to="/about">About</RouterLink> |
-  <RouterLink to="/product">Product</RouterLink>
+  <RouterLink to="/product?name=Alexandre">Product</RouterLink>
 
   <RouterView />
 </template>

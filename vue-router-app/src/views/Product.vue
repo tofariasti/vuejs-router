@@ -6,8 +6,7 @@
   import { useRoute } from 'vue-router';
 
   const route = useRoute();
-  console.log(route.params.id);
-  console.log(route.params.name);
+  console.log(route.query);
 </script>
 
 <style lang="css" scoped>
