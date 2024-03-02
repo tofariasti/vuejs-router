@@ -7,6 +7,7 @@
 
   const route = useRoute();
   console.log(route.params.id);
+  console.log(route.params.name);
 </script>
 
 <style lang="css" scoped>
