@@ -8,6 +8,7 @@
   const route = useRoute();
   console.log(route.params);
   console.log(route.query);
+  console.log(route.meta);
 </script>
 
 <style lang="css" scoped>
